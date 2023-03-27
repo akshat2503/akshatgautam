@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Gautam</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container page1">
+        <header>
+            <div class="logo-div">
+                <div class="logo"><img src="images/logo.png" width="70rem"></div>
+                <div class="logo logo-text">&nbspAkshat Gautam<div class="logo tagline">
+                        <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~ Code is poetry
+                    </div>
+                </div>
+
+                <!-- <div class="logo logo-text">Code is poetry</div> -->
+            </div>
+            <nav class="navbar">
+                <a href="#">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#" class="btn">Get in touch</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <!-- <h4>Develop. Test. Deploy.</h4> -->
+            <h4 align="center">Hi, my name is</h4>
+            <h1 align="center">Akshat Gautam</h1>
+            <h2 align="center">I build products for the web.</h2>
+            <div align="center">
+                <a href="#" class="btn content-btn">Get in touch</a>
+            </div>
+        </section>
+    </div>
+    <!-- <hr> -->
+
+    <div class="marquee-wrapper">
+        <div class="marquee-inner">
+            <span>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+            </span>
+            <span>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+
+                <div class="marquee-item">
+                    <p class="text-white">Projects</p>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <div class="container page2" id="projects">
+        <section class="projects-text">
+            <h1>Yeah, I'm still learning 👨‍💻</h1>
+            <h3>Here are some of my works.</h3>
+        </section>
+        <section align="center" class="laptop">
+            <img src="images/macbook.png" alt="Laptop Frame">
+            <div class="web-image-frame">
+                <img src="images/sslaptop.png" alt="" class="web-image">
+                <img src="images/sslaptop2.png" alt="" class="web-image">
+            </div>
+            <img src="images/iphone.png" alt="Mobile Phone Frame" class="phone">
+            <div class="mobile-image-frame">
+                <img src="images/ssmobile.jpg" alt="" class="mobile-image">
+                <img src="images/ssmobile2.jpg" alt="" class="mobile-image">
+            </div>
+            <div class="project-bar">
+                <a href="https://goldenarrows.in" class="projects">Golden Arrow</a>
+                <a href="https://akshatgautam.dev" class="projects">My Website</a>
+            </div>
+        </section>
+    </div>
+
+
+    <script>
+        const images = document.querySelectorAll(".web-image");
+        const mobimages = document.querySelectorAll(".mobile-image");
+        const projects = document.querySelectorAll(".projects");
+
+        let currentIndex = 1;
+
+        setInterval(() => {
+            images[currentIndex].style.opacity = "0";
+            mobimages[currentIndex].style.opacity = "0";
+            projects[currentIndex].style.borderBottom = "none";
+            currentIndex = (currentIndex + 1) % images.length;
+            projects[currentIndex].style.borderBottom = "solid #08D9D6 0.4rem";
+            images[currentIndex].style.opacity = "1";
+            mobimages[currentIndex].style.opacity = "1";
+        }, 5000);
+    </script>
+
+</body>
+
+</html>
