@@ -130,3 +130,7 @@ footer:hover {
     opacity: 1;
     transition: 0.5s ease;
 }
+
+.text2 {
+    font-size: 19px;
+}
