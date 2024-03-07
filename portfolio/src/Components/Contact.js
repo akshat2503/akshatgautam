@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <Box sx={{
+        <Box id='contact' sx={{
             display: 'flex',
             mt: 5,
             flexDirection: { xs: 'column', md: 'row' }

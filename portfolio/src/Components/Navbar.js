@@ -13,8 +13,9 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 // import AdbIcon from '@mui/icons-material/Adb';
 import logo from '../Images/logo.png';
+import { Link } from 'react-scroll';
 
-const pages = ['/ / home', '/ /  projects', '/ /  contact'];
+const pages = ['home', 'projects', 'contact'];
 
 export default function Navbar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,7 +40,7 @@ export default function Navbar() {
         <AppBar position="fixed" color="transparent" style={{ boxShadow: 'none', backdropFilter: 'blur(18px) brightness(70%)' }} >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <img width={70} src={logo} />
+                    <img width={70} src={logo} alt=''/>
                     <Typography
                         variant="h6"
                         noWrap
@@ -121,7 +122,15 @@ export default function Navbar() {
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, mx: 2, color: '#02BCC3', display: 'block', textTransform: 'lowercase', fontFamily: 'Inter', fontSize: '1.1rem', fontWeight: '500', letterSpacing: '-0.5px' }}
                             >
-                                {page}
+                                <Link
+                                    to={page}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70} // Adjust this value to offset the scroll position
+                                    duration={500}
+                                >
+                                    {"/ / " + page}
+                                </Link>
                             </Button>
                         ))}
                     </Box>

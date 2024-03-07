@@ -19,14 +19,19 @@ export default function Projects() {
             image: project2pic,
         },
         {
+            name: "News Application",
+            description: "Web Application made to read daily news fetched from NewsAPI’s API. Learnt about API calls, displaying JSON response.",
+            image: project1pic
+        },
+        {
             name: 'School Website',
             description: 'Static Website made for a local school. Using HTML, CSS and Bootstrap. Learnt about end user satisfaction and cooperation.',
-            image: project1pic,
+            image: project2pic,
         },
     ];
 
     return (
-        <Box sx={{
+        <Box id="projects" sx={{
             height: 'auto',
             width: '100%',
             display: 'flex',

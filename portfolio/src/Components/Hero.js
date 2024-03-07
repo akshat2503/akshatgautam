@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 export default function Hero() {
     return (
-        <Box sx={{
+        <Box id='home' sx={{
             width: '100%',
             height: '100vh',
             backgroundSize: { xs: 'cover', md: 'cover' },
@@ -46,7 +46,7 @@ export default function Hero() {
             }}>
                 FULL STACK WEB DEVELOPER
             </Typography>
-            <Link to="skillset" smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
+            <Link to="skillset" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
                 <Lottie options={{ loop: true, animationData: scrollAnim }} height={70} />
             </Link>
         </Box>
