@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+body {
+    background-color: #1a191d;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+@keyframes vibrateBackgroundMobile {
+    0% {
+        background-position: center center;
+    }
+
+    50% {
+        background-position: 47% 54%;
+    }
+
+    100% {
+        background-position: center center;
+    }
+}
+
+
+
+@keyframes vibrateBackgroundDesktop {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 18px 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
