@@ -68,7 +68,7 @@ export default function Skillset() {
                                 height: 'auto',
                                 opacity: 0.3
                             }}></Box>
-                            <Typography sx={{ color: 'white', fontFamily: 'Inter', fontStyle: 'italic', lineHeight: 2 }}>Continuously expanding expertise in MERN Stack.<br />Developing modern and scalable applications using React.js, Express, Node.js and MongoDB</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Inter', fontStyle: 'italic', lineHeight: 2 }}>Continuously expanding expertise in MERN Stack.<br />Developing modern and scalable applications using React.js, Express, Node.js and MongoDB.</Typography>
                         </Box>
                         <Typography sx={{ color: 'white', fontFamily: 'Inter', opacity: 0.3 }}>&lt;h3&gt;</Typography>
                     </Box>
@@ -116,7 +116,7 @@ export default function Skillset() {
                 opacity: 0.2,
                 px: 3
             }}>
-                <img src={codepic} style={{
+                <img alt='' src={codepic} style={{
                     width: "100%",
                     
                 }} />
