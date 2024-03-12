@@ -1,8 +1,9 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
-import project1pic from '../Images/sslaptop.png'
+import project1pic from '../Images/sslaptop3.png'
 import project2pic from '../Images/sslaptop2.png'
-// import project1pic from '../Images/sslaptop.png'
+import project3pic from '../Images/sslaptop.png'
+import project4pic from '../Images/sslaptop4.png'
 
 
 
@@ -21,12 +22,12 @@ export default function Projects() {
         {
             name: "News Application",
             description: "Web Application made to read daily news fetched from NewsAPI’s API. Learnt about API calls, displaying JSON response.",
-            image: project1pic
+            image: project4pic
         },
         {
             name: 'School Website',
             description: 'Static Website made for a local school. Using HTML, CSS and Bootstrap. Learnt about end user satisfaction and cooperation.',
-            image: project2pic,
+            image: project3pic,
         },
     ];
 
@@ -58,7 +59,7 @@ export default function Projects() {
 
                     <Card sx={{ maxWidth: 345, backgroundColor: 'black', mx: { xs: '', md: 3 }, my: { xs: 3, md: '' }, '&:hover': { boxShadow: '0px 0px 20px 0px rgba(255,255,255,0.5)', transition: 'box-shadow 0.3s ease-in-out' } }}>
                         <CardMedia
-                            sx={{ height: 240 }}
+                            sx={{ height: 190 }}
                             image={project.image}
                             title=""
                         />
