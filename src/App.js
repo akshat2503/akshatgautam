@@ -6,6 +6,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import ScrollToTopButton from './Components/ScrollToTopButton';
 import Loading from './Components/Loading';
+import About from './Components/About';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Loading />
             <Navbar />
             <Hero />
+            <About />
             <Skillset />
             <Projects />
             <Contact />

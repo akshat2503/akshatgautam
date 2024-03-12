@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../Images/logo.png';
 import { Link } from 'react-scroll';
 
-const pages = ['home', 'projects', 'contact'];
+const pages = ['home', 'about', 'projects', 'contact'];
 
 export default function Navbar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
