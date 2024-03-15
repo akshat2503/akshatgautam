@@ -6,7 +6,8 @@ export default function Contact() {
         <Box id='contact' sx={{
             display: 'flex',
             mt: 5,
-            flexDirection: { xs: 'column', md: 'row' }
+            flexDirection: { xs: 'column', md: 'row' },
+            borderTop: '3px solid rgba(255,255,255,0.2)'
         }}>
             <Box sx={{
                 width: {xs: '100%', md: '60%'},

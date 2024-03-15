@@ -18,7 +18,7 @@ export default function Navbar() {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-    
+
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
@@ -28,7 +28,7 @@ export default function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Box sx={{ display: { xs: 'block', md: 'none' } }}>
-                        <img width={70}  src={logo} alt='' style={{ marginRight: 10 }} onClick={handleOpenNavMenu} />
+                        <img width={70} src={logo} alt='' style={{ marginRight: 10 }} onClick={handleOpenNavMenu} />
                     </Box>
                     <Box sx={{ display: { xs: 'none', md: 'block' } }}>
                         <img width={70} src={logo} alt='' style={{ marginRight: 10 }} />
@@ -168,7 +168,8 @@ export default function Navbar() {
                         ))}
                     </Box>
 
-                    <Box sx={{ flexGrow: 0.4 }}>
+                    <Box sx={{ display: 'flex', flexGrow: 0.1, justifyContent: 'center' }}>
+                        <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', display: { xs: 'none', md: 'block' } }} href='/Resume.pdf'>Download CV</Button>
                     </Box>
                 </Toolbar>
             </Container>

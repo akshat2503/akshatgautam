@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import bgpic from '../Images/akshat-home-cover.jpg';
 import Lottie from 'react-lottie'
@@ -42,10 +42,11 @@ export default function Hero() {
                 fontSize: { xs: '1.1rem', md: '2rem' },
                 fontWeight: '500',
                 color: 'white',
-                mb: { xs: 10, md: '0' }
+                mb: { xs: 3, md: '0' }
             }}>
                 FULL STACK WEB DEVELOPER
             </Typography>
+            <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', mb: 8, display: { xs: 'block', md: 'none' }, '&:hover': {borderColor: '#02BCC3'} }} href='/Resume.pdf'>Download CV</Button>
             <Link to="skillset" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
                 <Lottie options={{ loop: true, animationData: scrollAnim }} height={70} />
             </Link>
