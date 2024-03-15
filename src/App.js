@@ -13,18 +13,22 @@ function App() {
     return (
         <>
             <AnimatedCursor
+                color="255,255,255"
                 innerSize={8}
                 outerSize={30}
                 innerScale={1}
                 outerScale={2}
-                outerAlpha={0.2}
+                outerAlpha={1}
                 hasBlendMode={true}
-                trailingSpeed={6}
-                innerStyle={{
-                    backgroundColor: '#fff', zIndex: '99999'
-                }}
+                trailingSpeed={5}
                 outerStyle={{
-                    border: '3px solid #02BCC3', zIndex: '99999'
+                    mixBlendMode: 'exclusion',
+                    zIndex: '99999',
+                }}
+                innerStyle={{
+                    backgroundColor: '#fff',
+                    mixBlendMode: 'exclusion',
+                    zIndex: '99999'
                 }}
             />
             <Loading />

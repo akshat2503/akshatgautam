@@ -8,7 +8,6 @@ export default function Skillset() {
         <Box id='skillset' sx={{
             height: 'auto',
             width: '100%',
-            // background: 'linear-gradient(180deg, rgba(35,38,47,1) 0%, rgba(26,25,29,1) 100%)',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
