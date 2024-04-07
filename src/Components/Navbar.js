@@ -169,7 +169,7 @@ export default function Navbar() {
                     </Box>
 
                     <Box sx={{ display: 'flex', flexGrow: 0.1, justifyContent: 'center' }}>
-                        <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', display: { xs: 'none', md: 'block' } }} href='/Resume.pdf'>Download CV</Button>
+                        <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', display: { xs: 'none', md: 'block' } }} href='Resume.pdf'>Download CV</Button>
                     </Box>
                 </Toolbar>
             </Container>
