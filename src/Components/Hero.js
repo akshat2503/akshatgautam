@@ -47,7 +47,7 @@ export default function Hero() {
                 FULL STACK WEB DEVELOPER
             </Typography>
             <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', mb: 8, display: { xs: 'block', md: 'none' }, '&:hover': {borderColor: '#02BCC3'} }} href='/Resume.pdf'>Download CV</Button>
-            <Link to="skillset" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
+            <Link to="about" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
                 <Lottie options={{ loop: true, animationData: scrollAnim }} height={70} />
             </Link>
         </Box>
