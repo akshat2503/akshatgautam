@@ -1,9 +1,9 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
-import project1pic from '../Images/sslaptop3.png'
+import project1pic from '../Images/sslaptop3.jpg'
 import project2pic from '../Images/sslaptop2.png'
-import project3pic from '../Images/sslaptop.png'
-import project4pic from '../Images/sslaptop4.png'
+import project3pic from '../Images/sslaptop.jpg'
+import project4pic from '../Images/sslaptop4.jpg'
 
 
 
