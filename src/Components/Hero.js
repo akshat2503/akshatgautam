@@ -38,15 +38,27 @@ export default function Hero() {
                 AKSHAT
             </Typography>
             <Typography sx={{
+                display: { xs: 'none', md: 'block' },
                 fontFamily: 'Inter',
                 fontSize: { xs: '1.1rem', md: '2rem' },
                 fontWeight: '500',
                 color: 'white',
                 mb: { xs: 3, md: '0' }
             }}>
-                FULL STACK WEB DEVELOPER
+                CERTIFIED CLOUD ENGINEER & FULL STACK WEB DEVELOPER
             </Typography>
-            <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', mb: 8, display: { xs: 'block', md: 'none' }, '&:hover': {borderColor: '#02BCC3'} }} href='/Resume.pdf'>Download CV</Button>
+            <Typography sx={{
+                display: { xs: 'block', md: 'none' },
+                fontFamily: 'Inter',
+                fontSize: { xs: '1.1rem', md: '2rem' },
+                fontWeight: '500',
+                color: 'white',
+                mb: { xs: 3, md: '0' },
+                textAlign: 'center'
+            }}>
+                CERTIFIED CLOUD ENGINEER <br /> AND <br /> FULL STACK WEB DEVELOPER
+            </Typography>
+            <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', mb: 8, display: { xs: 'block', md: 'none' }, '&:hover': {borderColor: '#02BCC3'} }} href='https://storage.googleapis.com/resume-bucket-portfolio/Resume.pdf'>Download CV</Button>
             <Link to="about" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
                 <Lottie options={{ loop: true, animationData: scrollAnim }} height={70} />
             </Link>

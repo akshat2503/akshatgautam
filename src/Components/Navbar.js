@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 import { Drawer } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
-const pages = ['home', 'about', 'projects', 'contact'];
+const pages = ['home', 'about', 'certifications', 'projects', 'contact'];
 
 export default function Navbar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -169,7 +169,7 @@ export default function Navbar() {
                     </Box>
 
                     <Box sx={{ display: 'flex', flexGrow: 0.1, justifyContent: 'center' }}>
-                        <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', display: { xs: 'none', md: 'block' } }} href='Resume.pdf'>Download CV</Button>
+                        <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', display: { xs: 'none', md: 'block' } }} href='https://storage.googleapis.com/resume-bucket-portfolio/Resume.pdf'>Download CV</Button>
                     </Box>
                 </Toolbar>
             </Container>

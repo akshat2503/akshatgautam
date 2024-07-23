@@ -8,6 +8,7 @@ import ScrollToTopButton from './Components/ScrollToTopButton';
 import Loading from './Components/Loading';
 import About from './Components/About';
 import AnimatedCursor from 'react-animated-cursor';
+import Certifications from './Components/Certifications';
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
             <Hero />
             <About />
             <Skillset />
+            <Certifications />
             <Projects />
             <Contact />
             <ScrollToTopButton />

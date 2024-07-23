@@ -56,7 +56,7 @@ export default function About() {
                         fontWeight: '400',
                         color: 'white',
                         textAlign: 'center',
-                    }}>I am a Full Stack Developer from Rewari, Haryana. Passionately learning and creating beautiful and robust web applications.</Typography>
+                    }}>I am a Google Certified Cloud Engineer & Full Stack Developer from Rewari, Haryana. Passionately learning and creating beautiful web applications and robust  cloud systems.</Typography>
                 </Box>
                 <Box sx={{
                     width: '100%',

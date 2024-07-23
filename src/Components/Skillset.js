@@ -80,7 +80,20 @@ export default function Skillset() {
                         alignItems: 'center',
                         marginBottom: 2
                     }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"><path d="M18,34.111l-1.667,6.667L14.111,43H31.889l-2.222-2.222L28,34.111M3,25.222H43M7.444,34.111H38.556A4.444,4.444,0,0,0,43,29.667V7.444A4.444,4.444,0,0,0,38.556,3H7.444A4.444,4.444,0,0,0,3,7.444V29.667A4.444,4.444,0,0,0,7.444,34.111Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"><path d="M18,34.111l-1.667,6.667L14.111,43H31.889l-2.222-2.222L28,34.111M3,25.222H43M7.444,34.111H38.556A4.444,4.444,0,0,0,43,29.667V7.444A4.444,4.444,0,0,0,38.556,3H7.444A4.444,4.444,0,0,0,3,7.444V29.667A4.444,4.444,0,0,0,7.444,34.111Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> */}
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 42 42"><g id="SVGRepo_bgCarrier" /><g id="SVGRepo_bgCarrier" strokeWidth={23} />
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            />
+                            <g id="SVGRepo_iconCarrier">
+                                <g id="Cloud-exchange">
+                                    <path d="M32.02 10.497q-0.47 0 -0.941 0.044A12.16 12.16 0 0 0 19.781 2.868a12.114 12.114 0 0 0 -12.101 11.041C3.392 14.222 0 17.809 0 22.173c0 4.296 3.287 7.839 7.477 8.246q0.105 0.039 0.223 0.039h2.521a0.656 0.656 0 1 0 0 -1.313h-1.936C4.441 29.146 1.313 26.017 1.313 22.173s3.128 -6.973 6.982 -6.973a0.656 0.656 0 0 0 0.656 -0.629A10.806 10.806 0 0 1 19.781 4.181 10.845 10.845 0 0 1 30.023 11.469c0.104 0.299 0.41 0.479 0.715 0.434 0.423 -0.062 0.854 -0.094 1.281 -0.094C36.799 11.81 40.688 15.698 40.688 20.478s-3.888 8.669 -8.668 8.669l-0.018 0.053a0.656 0.656 0 0 0 -0.261 -0.054h-2.871a0.656 0.656 0 1 0 0 1.313h2.871q0.139 -0.001 0.261 -0.054l0.018 0.054C37.523 30.459 42 25.982 42 20.478c0 -5.503 -4.477 -9.98 -9.98 -9.98z" />
+                                    <path d="M28.38 24.559a0.656 0.656 0 0 0 0.464 -1.12l-3.234 -3.233v-0.005h-0.005l-0.188 -0.187a0.656 0.656 0 0 0 -0.928 0l-0.187 0.187h-0.005v0.005l-3.233 3.233a0.656 0.656 0 1 0 0.928 0.928l2.305 -2.305v11.983h1.313v-11.983l2.306 2.305a0.656 0.656 0 0 0 0.464 0.192z" />
+                                    <path d="m18.063 34.586 -2.305 2.305v-11.983h-1.313v11.983l-2.305 -2.305a0.656 0.656 0 1 0 -0.928 0.928l3.233 3.233v0.006h0.006l0.186 0.186a0.654 0.654 0 0 0 0.928 0l0.186 -0.186h0.006v-0.006l3.233 -3.233a0.656 0.656 0 1 0 -0.928 -0.928z" />
+                                </g>
+                            </g></svg>
                         <Typography sx={{
                             marginLeft: 2,
                             fontFamily: 'Inter',
@@ -89,7 +102,7 @@ export default function Skillset() {
                             color: 'white',
                             lineHeight: 1.1,
                         }}>
-                            <span style={{ textDecoration: 'underline #FF6B2B 7px', textUnderlineOffset: '1px' }}>Data Structures</span><br />and Algorithms
+                            <span style={{ textDecoration: 'underline #FF6B2B 7px', textUnderlineOffset: '1px' }}>Cloud</span><br />Computing
                         </Typography>
                     </Box>
                     <Box>
@@ -102,21 +115,21 @@ export default function Skillset() {
                                 height: 'auto',
                                 opacity: 0.3
                             }}></Box>
-                            <Typography sx={{ color: 'white', fontFamily: 'Inter', fontStyle: 'italic', lineHeight: 2 }}>Eagerly understanding DSA concepts and proficient in using C++ for implementing them.<br />Applied knowledge of algorithms and data structures to solve complex problems efficiently.</Typography>
+                            <Typography sx={{ color: 'white', fontFamily: 'Inter', fontStyle: 'italic', lineHeight: 2 }}>Proficient in cloud architecture, deployment, and management using Google Cloud Platform.<br />Applied knowledge of cloud services to design scalable and efficient solutions.</Typography>
                         </Box>
                         <Typography sx={{ color: 'white', fontFamily: 'Inter', opacity: 0.3 }}>&lt;h3&gt;</Typography>
                     </Box>
                 </Box>
             </Box>
             <Box sx={{
-                width: { xs: '100%', md: '40%'},
-                transform: {xs: 'translateY(-40px)', md: 'translateY(-20px)'},
+                width: { xs: '100%', md: '40%' },
+                transform: { xs: 'translateY(-40px)', md: 'translateY(-20px)' },
                 opacity: 0.2,
                 px: 3
             }}>
                 <img alt='' src={codepic} style={{
                     width: "100%",
-                    
+
                 }} />
             </Box>
         </Box>
