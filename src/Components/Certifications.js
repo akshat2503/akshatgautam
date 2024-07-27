@@ -43,6 +43,9 @@ export default function Certifications() {
                 <Box sx={{ backgroundColor: 'white', borderRadius: '5px', height: '240px', mx: 3 }}>
                     <div data-iframe-width="345" data-iframe-height="270" data-share-badge-id="fa33c5d2-69f4-4972-b753-4d343165e410" data-share-badge-host="https://www.credly.com"></div>
                 </Box>
+                <Box sx={{ backgroundColor: 'white', borderRadius: '5px', height: '240px', mx: 3 }}>
+                    <div data-iframe-width="345" data-iframe-height="270" data-share-badge-id="6de2bd76-2535-47c3-bde4-2a80838987e4" data-share-badge-host="https://www.credly.com"></div>
+                </Box>
             </Box>
 
             <Box sx={{ flexDirection: 'column', display: { xs: 'flex', md: 'none' } }}>
@@ -51,6 +54,9 @@ export default function Certifications() {
                 </Box>
                 <Box sx={{ backgroundColor: 'white', borderRadius: '5px', height: '240px', my: 3 }}>
                     <div data-iframe-width="345" data-iframe-height="270" data-share-badge-id="fa33c5d2-69f4-4972-b753-4d343165e410" data-share-badge-host="https://www.credly.com"></div>
+                </Box>
+                <Box sx={{ backgroundColor: 'white', borderRadius: '5px', height: '240px', my: 3 }}>
+                <div data-iframe-width="345" data-iframe-height="270" data-share-badge-id="6de2bd76-2535-47c3-bde4-2a80838987e4" data-share-badge-host="https://www.credly.com"></div>
                 </Box>
             </Box>
 
