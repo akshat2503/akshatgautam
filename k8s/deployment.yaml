@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: portfolio-website-container
-        image: gcr.io/your-project-id/portfolio-website:latest
+        image: gcr.io/imposing-pager-432316-a8/portfolio-website:latest
         ports:
         - containerPort: 80
 ---
