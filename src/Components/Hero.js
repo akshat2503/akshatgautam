@@ -45,7 +45,7 @@ export default function Hero() {
                 color: 'white',
                 mb: { xs: 3, md: '0' }
             }}>
-                CERTIFIED CLOUD ENGINEER & FULL STACK WEB DEVELOPER
+                CERTIFIED CLOUD ENGINEER & DEVOPS ENTHUSIAST
             </Typography>
             <Typography sx={{
                 display: { xs: 'block', md: 'none' },
@@ -56,7 +56,7 @@ export default function Hero() {
                 mb: { xs: 3, md: '0' },
                 textAlign: 'center'
             }}>
-                CERTIFIED CLOUD ENGINEER <br /> AND <br /> FULL STACK WEB DEVELOPER
+                CERTIFIED CLOUD ENGINEER <br /> AND <br /> DEVOPS ENTHUSIAST
             </Typography>
             <Button variant='outlined' sx={{ color: '#02BCC3', borderColor: '#02BCC3', mb: 8, display: { xs: 'block', md: 'none' }, '&:hover': {borderColor: '#02BCC3'} }} href='https://storage.googleapis.com/resume-bucket-portfolio/Resume.pdf'>Download CV</Button>
             <Link to="about" offset={-70} smooth={true} duration={1500} style={{ position: 'absolute', bottom: '10%', cursor: 'pointer' }}>
